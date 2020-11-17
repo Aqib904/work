@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iphone Display</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+<body>
+    <div id="container">
+        <div class="cover">
+            <div class="box">
+                <img src="logo1.png" alt="logo">
+            </div>
+        </div>
+    </div>
+    <div id="container1">
+        <div class="camera">
+            <button></button>
+            <button id="btn"></button>
+            <button id="btn1"></button>
+            <button id="btn2"></button>
+            <button id="btn3"></button>
+        </div>
+    </div>
+    <div id="section">
+        <div class="cover">
+            <div class="box1">
+            </div>
+        </div>
+    </div>
+    <div id="section3">
+        <img id="img1"src="bg.png" alt="img">
+    </div>
+    <div id="section1">
+        <div class="front">
+            <button id="btnfr"></button>
+            <div class="speaker"></div>
+            <div  class="btnfrr"> <button id="btnfrr"></button></div>
+        </div>
+    </div>
+    <div id="section2">
+        <div class="touch">
+        <button id="bbtn" onmouseover="display()" ondblclick="print()" onclick="show()" ></button>
+        </div>
+    </div>
+    <div class="section3">
+        <form class="wrapper" name="form">
+            <div id="dis" class="display">
+                <textarea name="textarea"  cols="30" rows="10" placeholder="Enter a password"></textarea>
+            </div>
+            <div class="keys">
+                <input id="one" type="button" value="A" name="A" onclick="disp(A.value)">
+                <input id="two" type="button" value="B" name="B" onclick="disp(B.value)">
+                <input id="three" type="button" value="C" name="C" onclick="disp(C.value)">
+                <br>
+                <input id="four" type="button" value="D" name="D" onclick="disp(D.value)">
+                <input id="five" type="button" value="E" name="E" onclick="disp(E.value)">
+                <input id="six" type="button" value="F" name="F" onclick="disp(F.value)">
+                <br>
+                <input id="seven" type="button" value="G" name="G" onclick="disp(G.value)">
+                <input id="eight" type="button" value="H" name="H" onclick="disp(H.value)">
+                <input id="nine" type="button" value="OK" name="ok" onclick="disp(ok.value)" ondblclick="next()">
+            </div>
+        </form>
+    </div>
+   
+</body>
+
+</html>
