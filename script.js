@@ -31,6 +31,6 @@ let p0=   document.getElementById("one");
   document.getElementById("four");
  let a='A';
   if(p0=!a);
-  {         document.getElementById("press8").style.backgroundColor="red";
+  {         document.getElementById("one").style.backgroundColor="red";
       }
 }
